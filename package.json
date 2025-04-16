@@ -15,6 +15,7 @@
     "@unocss/reset": "^66.1.0-beta.11",
     "motion-v": "^1.0.0-beta.2",
     "nuxt": "^3.16.2",
+    "party-js": "^2.2.0",
     "tailwind-merge": "^3.2.0",
     "vue": "latest",
     "vue-router": "latest"
