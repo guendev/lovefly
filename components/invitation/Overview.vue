@@ -183,7 +183,7 @@ const HCircleImage = defineComponent({
 
 <template>
   <div ref="scope" class="relative isolate">
-    <div class="relative z-3 lg:pt-50 pt-40 pb-17 px-16">
+    <div class="relative z-3 lg:pt-50 pt-40 pb-17 lg:px-16 px-8">
       <div class="flex justify-evenly flex-col lg:flex-row items-center gap-y-12">
         <HCircleImage
           class="sasunaru1 opacity-0" src="/images/naruto/sasunaru-1.jpg"
