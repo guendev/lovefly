@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <nuxt-page />
+  <div class="text-gray-800">
+    <nuxt-page />
+  </div>
 </template>
 
 <style scoped>

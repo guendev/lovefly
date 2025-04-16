@@ -1,5 +1,5 @@
 {
-  "name": "@stunow/web",
+  "name": "@guendev/lovefly",
   "type": "module",
   "private": true,
   "scripts": {
@@ -12,12 +12,20 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@unocss/reset": "^66.1.0-beta.11",
+    "motion-v": "^1.0.0-beta.2",
     "nuxt": "^3.16.2",
+    "tailwind-merge": "^3.2.0",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.12.0",
+    "@nuxt/icon": "^1.12.0",
+    "@nuxt/image": "^1.10.0",
+    "@unocss/nuxt": "^66.1.0-beta.11",
+    "@unocss/preset-web-fonts": "^66.1.0-beta.11",
+    "@vueuse/nuxt": "^13.1.0",
     "eslint": "^9.24.0",
     "eslint-plugin-perfectionist": "^4.11.0"
   }

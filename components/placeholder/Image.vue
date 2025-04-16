@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    <invitation-overview />
-  </div>
+  <div class="inline min-w-12 min-h-12" />
 </template>
 
 <style scoped>
