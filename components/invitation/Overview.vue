@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type {AnimationOptions, AnimationPlaybackControls, AnimationSequence} from 'motion-v'
+import type { AnimationOptions, AnimationPlaybackControls, AnimationSequence } from 'motion-v'
 
 import { NuxtImg } from '#components'
 import { stagger } from 'motion-v'
@@ -144,7 +144,7 @@ const HCircleImage = defineComponent({
             h(
                 'div',
                 {
-                    class: 'w-65 aspect-5/7 rounded-full overflow-hidden border border-solid p-3 border-gray-400',
+                    class: 'w-55 lg:w-65 aspect-5/7 rounded-full overflow-hidden border border-solid p-3 border-gray-400',
                     id
                 },
                 [
@@ -183,10 +183,12 @@ const HCircleImage = defineComponent({
 
 <template>
   <div ref="scope" class="relative isolate">
-    <div class="relative z-3 pt-50 pb-17 px-16">
-      <div class="flex justify-center justify-evenly">
-        <HCircleImage class="sasunaru1" src="/images/naruto/sasunaru-1.jpg" />
-        <div class="flex flex-col items-center gap-y-2">
+    <div class="relative z-3 lg:pt-50 pt-40 pb-17 px-16">
+      <div class="flex justify-evenly flex-col lg:flex-row items-center gap-y-12">
+        <HCircleImage
+          class="sasunaru1 opacity-0" src="/images/naruto/sasunaru-1.jpg"
+        />
+        <div class="flex flex-col items-center gap-y-2 order-first lg:order-none">
           <p class="overview-item uppercase text-center tracking-wider font-medium">
             Chúng mình cưới
           </p>
@@ -214,16 +216,18 @@ const HCircleImage = defineComponent({
             <span>The Village Hidden in the Leaves</span>
           </div>
         </div>
-        <HCircleImage flip class="sasunaru2" src="/images/naruto/sasunaru-2.webp" />
+        <HCircleImage flip class="sasunaru2 opacity-0" src="/images/naruto/sasunaru-2.webp" />
       </div>
     </div>
     <NuxtImg src="/images/overlay.jpg" class="inset-0 size-full absolute z-1" />
 
-    <NuxtImg src="/images/icon-flowers-1.png" class="flowers1 absolute left-0 bottom-20 w-50 z-2" />
-    <NuxtImg src="/images/icon-flowers-2.png" class="flowers2 absolute right-0 top-20 w-50 z-2" />
+    <NuxtImg src="/images/icon-flowers-1.png" class="flowers1 absolute left-0 bottom-20 lg:w-50 w-40 z-2" />
+    <NuxtImg src="/images/icon-flowers-2.png" class="flowers2 absolute right-0 top-20 lg:w-50 w-40 z-2" />
   </div>
 </template>
 
 <style scoped>
-
+.overview-item {
+    opacity: 0;
+}
 </style>
