@@ -11,6 +11,7 @@ function play(source: HTMLDivElement | MouseEvent) {
 <template>
   <div @click="play">
     <invitation-overview />
+    <invitation-timeline />
   </div>
 </template>
 
