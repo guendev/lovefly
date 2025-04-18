@@ -216,7 +216,7 @@ const HCircleImage = defineComponent({
             <span>The Village Hidden in the Leaves</span>
           </div>
         </div>
-        <HCircleImage flip class="sasunaru2 opacity-0" src="/images/naruto/sasunaru-2.webp" />
+        <HCircleImage :flip="true" class="sasunaru2 opacity-0" src="/images/naruto/sasunaru-2.webp" />
       </div>
     </div>
     <NuxtImg src="/images/overlay.jpg" class="inset-0 size-full absolute z-1" />
