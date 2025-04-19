@@ -10,5 +10,10 @@ export default defineConfig({
                 vibes: 'Great Vibes'
             }
         })
+    ],
+    shortcuts: [
+        {
+            'bg-pattern-4': 'bg-[url("/images/pattern-4.png")]'
+        }
     ]
 })

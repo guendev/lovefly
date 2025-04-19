@@ -13,6 +13,7 @@ function play(source: HTMLDivElement | MouseEvent) {
     <invitation-overview />
     <invitation-timeline />
     <invitation-info />
+    <invitation-deadline />
   </div>
 </template>
 
