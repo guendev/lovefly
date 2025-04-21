@@ -15,12 +15,12 @@
     </div>
 
     <div class="mt-12 text-gray-500 space-y-2">
-      <div>Số tài khoản: 123456789</div>
-      <div>Chủ tài khoản: Tên cô dâu</div>
-      <div>Ngân hàng: Ngân hàng</div>
+      <div>Số tài khoản: 1013277752</div>
+      <div>Chủ tài khoản: Vo Van Nho</div>
+      <div>Ngân hàng: Ngân hàng Vietcombank</div>
     </div>
 
-    <nuxt-img class="max-w-62 block mx-auto mt-8" src="/images/qr-code-example.webp" />
+    <nuxt-img class="max-w-62 block mx-auto mt-8" src="/images/nho-vo/qr.jpg" />
   </div>
 </template>
 

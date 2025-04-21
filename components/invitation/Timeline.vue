@@ -9,20 +9,20 @@ interface Item {
 const items: Item[] = [
     {
         image: '/images/services2-1.png',
-        subtitle: 'Bắt đầu đón khách',
-        time: '17:00',
-        title: 'Đón khách'
+        subtitle: 'Đón dâu tại nhà nữ',
+        time: '08:30',
+        title: 'Đón dâu'
     },
     {
         image: '/images/services2-2.png',
-        subtitle: 'Tiến hành rước cô dâu vào sân khấu và làm lễ',
-        time: '18:00',
+        subtitle: 'Làm lễ tại nhà nam',
+        time: '09:00',
         title: 'Làm lễ'
     },
     {
         image: '/images/services2-3.png',
         subtitle: 'Bắt đầu khai tiệc',
-        time: '19:00',
+        time: '11:00',
         title: 'Khai tiệc'
     }
 ]
