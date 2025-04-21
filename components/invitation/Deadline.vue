@@ -8,7 +8,7 @@ const deadline = new Date(year, month - 1, day, 0, 0, 0)
 const now = useNow({ interval: 1000 })
 
 const remaining = computed(() => {
-    if (now.value < deadline) {
+    if (now.value >= deadline) {
         return [
             { label: 'Ngày', value: '00' },
             { label: 'Giờ', value: '00' },

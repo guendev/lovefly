@@ -14,6 +14,7 @@ function play(source: HTMLDivElement | MouseEvent) {
     <invitation-timeline />
     <invitation-info />
     <invitation-deadline />
+    <invitation-pregift />
   </div>
 </template>
 
