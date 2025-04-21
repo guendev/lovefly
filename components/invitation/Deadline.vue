@@ -8,6 +8,15 @@ const deadline = new Date(year, month - 1, day, 0, 0, 0)
 const now = useNow({ interval: 1000 })
 
 const remaining = computed(() => {
+    if (now.value < deadline) {
+        return [
+            { label: 'Ngày', value: '00' },
+            { label: 'Giờ', value: '00' },
+            { label: 'Phút', value: '00' },
+            { label: 'Giây', value: '00' }
+        ]
+    }
+
     const totalSeconds = Math.max(0, differenceInSeconds(deadline, now.value))
 
     const days = Math.floor(totalSeconds / (60 * 60 * 24))
