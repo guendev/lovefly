@@ -186,7 +186,7 @@ const HCircleImage = defineComponent({
     <div class="relative z-3 lg:pt-50 pt-40 pb-17 lg:px-16 px-8">
       <div class="flex justify-evenly flex-col lg:flex-row items-center gap-y-12">
         <HCircleImage
-          class="sasunaru1 opacity-0" src="/images/naruto/sasunaru-1.jpg"
+          class="sasunaru1 opacity-0" src="/images/nho-vo/h1.jpg"
         />
         <div class="flex flex-col items-center gap-y-2 order-first lg:order-none">
           <p class="overview-item uppercase text-center tracking-wider font-medium">
@@ -194,29 +194,29 @@ const HCircleImage = defineComponent({
           </p>
           <div class="font-vibes flex-col flex items-center text-5xl gap-y-4">
             <h1 class="overview-item text-center mt-2">
-              Uzumaki Naruto
+              Võ Văn Nhớ
             </h1>
             <div class="overview-item text-7xl font-dancing">
               &
             </div>
             <h1 class="overview-item text-center mt-2">
-              Uchiha Sasuke
+              Đỗ Thị Ly Ly
             </h1>
           </div>
           <div class="overview-item flex flex-col gap-y-1 mt-6">
             <div class="w-full h-0.5 bg-gray-800" />
             <div class="font-dancing text-3xl word-spacing-widest tracking-widest">
-              25 Tháng 12, 2024
+              11h 01/05/2025
             </div>
             <div class="w-full h-0.5 bg-gray-800" />
           </div>
 
           <div class="overview-item flex items-center gap-x-1 mt-3">
             <icon name="solar-map-point-favourite-bold" />
-            <span>The Village Hidden in the Leaves</span>
+            <span>Nhà hàng Bình Hường - TT Lệ Ninh - Lệ Thuỷ - Quảng Bình</span>
           </div>
         </div>
-        <HCircleImage :flip="true" class="sasunaru2 opacity-0" src="/images/naruto/sasunaru-2.webp" />
+        <HCircleImage :flip="true" class="sasunaru2 opacity-0" src="/images/nho-vo/h2.jpg" />
       </div>
     </div>
     <NuxtImg src="/images/overlay.jpg" class="inset-0 size-full absolute z-1" />

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { differenceInSeconds } from 'date-fns'
 
-const deadlineString = '31/07/2025'
+const deadlineString = '01/05/2025'
 const [day, month, year] = deadlineString.split('/').map(Number)
 const deadline = new Date(year, month - 1, day, 0, 0, 0)
 
