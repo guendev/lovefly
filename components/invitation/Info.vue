@@ -23,7 +23,7 @@
         <nuxt-img class="lg:w-45 w-32" src="/images/flower.png" />
         <div>
           <div class="uppercase text-xl mb-4">
-            Nhà Trai
+            Nhà Gái
           </div>
           <div>Ông: Đỗ Văn Anh</div>
           <div>Bà: Nguyễn Thị Phượng</div>
