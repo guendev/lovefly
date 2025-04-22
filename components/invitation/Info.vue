@@ -49,7 +49,7 @@
         <div class="text-gray-500 font-light text-sm">
           Tổ chức vào lúc 11 giờ 00
         </div>
-        <div>Thứ Tư, ngày 01 tháng 05 năm 2025</div>
+        <div>Thứ Năm, ngày 01 tháng 05 năm 2025</div>
         <div class="text-gray-500 italic">
           (Tức ngày 04 tháng 04 năm 2025 Quý Mão)
         </div>
