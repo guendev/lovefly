@@ -51,7 +51,7 @@
         </div>
         <div>Thứ Tư, ngày 01 tháng 05 năm 2025</div>
         <div class="text-gray-500 italic">
-          (Tức ngày 04 tháng 04 năm 2025 Quý Mão)
+          (Tức ngày 04 tháng 04 năm 2025 Ất Tỵ)
         </div>
         <!--        <div>Tại gia đình Nhà Trai:</div> -->
         <!--        <div>Lê Quang Đạo, An Đông, Thành phố Huế, Thừa Thiên Huế, Vietnam</div> -->
