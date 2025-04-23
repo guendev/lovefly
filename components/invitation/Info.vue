@@ -23,7 +23,7 @@
         <nuxt-img class="lg:w-45 w-32" src="/images/flower.png" />
         <div>
           <div class="uppercase text-xl mb-4">
-            Nhà Trai
+            Nhà Gái
           </div>
           <div>Ông: Đỗ Văn Anh</div>
           <div>Bà: Nguyễn Thị Phượng</div>
@@ -49,7 +49,7 @@
         <div class="text-gray-500 font-light text-sm">
           Tổ chức vào lúc 11 giờ 00
         </div>
-        <div>Thứ Tư, ngày 01 tháng 05 năm 2025</div>
+        <div>Thứ Năm, ngày 01 tháng 05 năm 2025</div>
         <div class="text-gray-500 italic">
           (Tức ngày 04 tháng 04 năm 2025 Ất Tỵ)
         </div>
